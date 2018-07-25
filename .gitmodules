@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/defcon-russia/defcon-russia.github.io.git
+	branch = master
