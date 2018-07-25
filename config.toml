@@ -1,0 +1,94 @@
+baseurl = "https://defcon-russia.ru/"
+title = "DEF CON group DCG7812 St.Petersburg,Russia"
+languageCode = "en-us"
+
+# Pagination
+paginate = 3
+paginatePath = "page"
+
+# Theme to use
+theme = "retrofulhugo"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Google analytics
+# googleAnalytics = ""
+
+[Author]
+    handle = "root"
+    name = "Russian DEF CON group: DC7812"
+    email = "defconrussia@gmail.com"
+    github = "defcon-russia"
+    twitter = "defconrussia"
+    youtube = "https://www.youtube.com/channel/UCPl0neGOB-NmarQ741-yBKg"
+    twitch = "defconrussia"
+
+# Languages
+
+defaultContentLanguage = "en"
+
+[languages.en]
+  languageName = "Eng"
+
+  [[languages.en.menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+  [[languages.en.menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 2
+  [[languages.en.menu.main]]
+    url = "/contact/"
+    name = "Contact"
+    weight = 3
+
+[languages.ru]
+  languageName = "Ru"
+
+  [[languages.ru.menu.main]]
+    url = "/ru/"
+    name = "Главная"
+    weight = 1
+  [[languages.ru.menu.main]]
+    url = "/about/"
+    name = "О нас"
+    weight = 2
+  [[languages.ru.menu.main]]
+    url = "/contact/"
+    name = "Контакты"
+    weight = 3
+
+# Links format
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
+[params]
+  # Main sections (currently used for the recent posts in the sidebar)
+  mainSections = ["post"]
+
+  # Default author
+  author = "root"
+
+    # logo = "img/srm.png"
+    logo = "img/logo.png"
+    favicon = "img/favicon.ico"
+
+  # Date format (default: Jan 2, 2006)
+  # date_format = "Jan 2, 2006"
+
+  # Display post summaries instead of content in list templates (default: true)
+  # truncate = false
+
+  [params.sidebar]
+    # Whether to show the recent posts or not (default: true)
+    # showRecent = false
+
+    # Whether to show the taxonomies or not (default: true)
+    # showTaxonomy = false
+
+    # How many posts to show on the sidebar (Default: 5)
+    # num_recent_posts = 5
