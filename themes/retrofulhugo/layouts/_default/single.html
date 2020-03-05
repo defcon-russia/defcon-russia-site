@@ -11,7 +11,7 @@
 
       {{ partial "header_wp.html" . }}
 	  
-      {{ if eq .Type "post" }}
+      {{ if eq .Type "posts" }}
         {{ partial "post.html" . }}
       {{ else if eq .Type "page" }}
         {{ partial "page.html" . }}

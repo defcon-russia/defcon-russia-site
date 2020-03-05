@@ -1,6 +1,6 @@
----
-title: "Contact"
----
++++
+title = "Contact"
++++
 
 Send you talks and questions to defconrussia[]gmail[dot]com! 
 

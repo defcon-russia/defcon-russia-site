@@ -6,6 +6,8 @@ languageCode = "en-us"
 paginate = 3
 paginatePath = "page"
 
+contentDir   = "content"
+
 # Theme to use
 theme = "retrofulhugo"
 
@@ -28,6 +30,7 @@ theme = "retrofulhugo"
 # Languages
 
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
 [languages.en]
   languageName = "Eng"
@@ -68,7 +71,7 @@ defaultContentLanguage = "en"
 
 [params]
   # Main sections (currently used for the recent posts in the sidebar)
-  mainSections = ["post"]
+  # mainSections = ["post"]
 
   # Default author
   author = "root"
